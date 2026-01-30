@@ -26,9 +26,10 @@ const EnquirySection = () => {
 
 try {
   await fetch(
-    "https://script.google.com/macros/s/AKfycbxaLGYvkK3kqw3JYBHRBqxgEGihmWXbKNw4S4CTSqMKuR_ZyiPHzeP9u4GKWZTQyWGbxg/exec",
+    "https://script.google.com/macros/s/AKfycbwGxw3TgjpXIFgfiTjpnorIK89nxvHv1iIn664BO2QSsURQU3VzJ0CvKQubPL6unOtK/exec",
     {
       method: "POST",
+      mode: "no-cors",
       body: JSON.stringify(formData),
     }
   );
