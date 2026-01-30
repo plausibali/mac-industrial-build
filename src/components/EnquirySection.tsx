@@ -29,8 +29,10 @@ try {
     "https://script.google.com/macros/s/AKfycbwGxw3TgjpXIFgfiTjpnorIK89nxvHv1iIn664BO2QSsURQU3VzJ0CvKQubPL6unOtK/exec",
     {
       method: "POST",
-      mode: "no-cors",
-      body: JSON.stringify(formData),
+      headers: {
+    "Content-Type": "application/json"
+  },
+      body: JSON.stringify(formData)
     }
   );
 
