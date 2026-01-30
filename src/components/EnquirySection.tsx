@@ -29,7 +29,6 @@ try {
     "https://script.google.com/macros/s/AKfycbxaLGYvkK3kqw3JYBHRBqxgEGihmWXbKNw4S4CTSqMKuR_ZyiPHzeP9u4GKWZTQyWGbxg/exec",
     {
       method: "POST",
-      mode: "no-cors",
       body: JSON.stringify(formData),
     }
   );
